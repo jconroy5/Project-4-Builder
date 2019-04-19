@@ -1,4 +1,6 @@
-package com.builder;
+package com.builder.director;
+
+import com.builder.builders.*;
 
 public class Waiter {
     private PizzaBuilder pizzaBuilder;

@@ -1,4 +1,4 @@
-package com.builder;
+package com.builder.builders;
 
 public class Pizza {
     private String crust = "";

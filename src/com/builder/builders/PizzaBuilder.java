@@ -1,6 +1,6 @@
-package com.builder;
+package com.builder.builders;
 
-abstract class PizzaBuilder {
+public abstract class PizzaBuilder {
     protected Pizza pizza;
 
     public Pizza getPizza() {

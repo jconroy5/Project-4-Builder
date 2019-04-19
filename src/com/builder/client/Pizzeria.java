@@ -1,4 +1,7 @@
-package com.builder;
+package com.builder.client;
+
+import com.builder.builders.*;
+import com.builder.director.*;
 
 public class Pizzeria {
     public static void main(String[] args) {

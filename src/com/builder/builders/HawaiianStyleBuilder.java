@@ -1,4 +1,4 @@
-package com.builder;
+package com.builder.builders;
 
 public class HawaiianStyleBuilder extends PizzaBuilder{
     public void buildCrust() {
