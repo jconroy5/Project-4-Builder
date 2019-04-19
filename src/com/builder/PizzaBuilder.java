@@ -4,6 +4,7 @@ abstract class PizzaBuilder {
     protected Pizza pizza;
 
     public Pizza getPizza() {
+        System.out.println("Waiter has delivered the pizza to the customer.\n");
         return pizza;
     }
 

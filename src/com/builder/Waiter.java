@@ -8,6 +8,7 @@ public class Waiter {
     }
 
     public void constructPizza() {
+        System.out.println("\nThe pizza is being prepared...");
         pizzaBuilder.createNewPizza();
         pizzaBuilder.buildCrust();
         pizzaBuilder.buildSauce();
