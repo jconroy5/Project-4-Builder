@@ -8,7 +8,10 @@ public class Pizzeria {
         PizzaBuilder meatLovers = new MeatLoversBuilder();
 
         System.out.println("Welcome to Joe's Pizzeria");
-        System.out.println("\nMENU: \nChicago Style Pizza..........$24.99 \nHawaiian Style Pizza..........$19.99");
+        System.out.println("\nMENU:" +
+                "\nChicago Style Pizza..........$24.99" +
+                "\nHawaiian Style Pizza..........$19.99" +
+                "\nMeat Lovers Pizza..........$14.99");
 
         System.out.println("\n*****Order Placed: Chicago Style Pizza*****\n");
         waiter.setPizzaBuilder(deepDish);
