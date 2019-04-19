@@ -7,7 +7,7 @@ public class Pizzeria {
         PizzaBuilder hawaiian = new HawaiianStyleBuilder();
         PizzaBuilder meatLovers = new MeatLoversBuilder();
 
-        System.out.println("Welcome to Joe's Pizzeria");
+        System.out.println("Welcome to Joe's Pizzeria!");
         System.out.println("\nMENU:" +
                 "\nChicago Style Pizza..........$24.99" +
                 "\nHawaiian Style Pizza..........$19.99" +
