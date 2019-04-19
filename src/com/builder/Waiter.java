@@ -8,7 +8,7 @@ public class Waiter {
     }
 
     public void constructPizza() {
-        pizzaBuilder.createNewPizzaProduct();
+        pizzaBuilder.createNewPizza();
         pizzaBuilder.buildCrust();
         pizzaBuilder.buildSauce();
         pizzaBuilder.buildToppings();

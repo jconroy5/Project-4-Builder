@@ -7,7 +7,7 @@ abstract class PizzaBuilder {
         return pizza;
     }
 
-    public void createNewPizzaProduct() {
+    public void createNewPizza() {
         pizza = new Pizza();
     }
 
