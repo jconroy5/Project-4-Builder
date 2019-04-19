@@ -11,8 +11,8 @@ abstract class PizzaBuilder {
         pizza = new Pizza();
     }
 
-    public abstract void buildDough();
+    public abstract void buildCrust();
     public abstract void buildSauce();
-    public abstract void buildTopping();
+    public abstract void buildToppings();
     public abstract void setPrice();
 }

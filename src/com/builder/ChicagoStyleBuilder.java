@@ -1,16 +1,16 @@
 package com.builder;
 
 public class ChicagoStyleBuilder extends PizzaBuilder{
-    public void buildDough() {
-        pizza.setDough("Deep Dish");
+    public void buildCrust() {
+        pizza.setCrust("Deep Dish");
     }
 
     public void buildSauce() {
         pizza.setSauce("Spicy Tomato");
     }
 
-    public void buildTopping() {
-        pizza.setTopping("cheese, pepperoni, mushrooms, black olives");
+    public void buildToppings() {
+        pizza.setToppings("cheese, pepperoni, mushrooms, black olives");
     }
 
     public void setPrice() {

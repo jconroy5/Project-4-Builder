@@ -9,9 +9,9 @@ public class Waiter {
 
     public void constructPizza() {
         pizzaBuilder.createNewPizzaProduct();
-        pizzaBuilder.buildDough();
+        pizzaBuilder.buildCrust();
         pizzaBuilder.buildSauce();
-        pizzaBuilder.buildTopping();
+        pizzaBuilder.buildToppings();
         pizzaBuilder.setPrice();
     }
 

@@ -1,16 +1,16 @@
 package com.builder;
 
 public class HawaiianStyleBuilder extends PizzaBuilder{
-    public void buildDough() {
-        pizza.setDough("Thin Crust");
+    public void buildCrust() {
+        pizza.setCrust("Thin Crust");
     }
 
     public void buildSauce() {
         pizza.setSauce("Mild Tomato");
     }
 
-    public void buildTopping() {
-        pizza.setTopping("ham, pineapple");
+    public void buildToppings() {
+        pizza.setToppings("cheese, ham, pineapple");
     }
 
     public void setPrice() {
