@@ -1,5 +1,10 @@
 package com.builder.builders;
 
+/*
+Pizza is the product class.
+It contains the variables and setter/getter methods for the pizza components.
+ */
+
 public class Pizza {
     private String crust = "";
     private String sauce = "";
